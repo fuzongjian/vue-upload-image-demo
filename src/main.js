@@ -3,11 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import upload from './components/upload-image/upload'
+import beautyinput from './components/upload-image/beauty-input'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  template: '<upload/>',
-  components: { upload }
+  template: '<beautyinput/>',
+  components: { beautyinput }
 })
